@@ -393,6 +393,9 @@ GameObject:
   m_Component:
   - component: {fileID: 761934816}
   - component: {fileID: 761934817}
+  - component: {fileID: 761934820}
+  - component: {fileID: 761934819}
+  - component: {fileID: 761934818}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -422,11 +425,47 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761934815}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43131583fa14f9b4ca22c537a8303770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClassworkIntro
+--- !u!114 &761934818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761934815}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a90749e4bf85f4386f2dda6f898ac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::L7_Logic_Conditionals_Reps
+--- !u!114 &761934819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761934815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c441b7434c79b534f903894b2233bf34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classwork_Loops
+--- !u!114 &761934820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761934815}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949853dd17d5d354cb3fef7efbeec6a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::L5_Variables_Operators_Reps
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
