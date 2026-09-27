@@ -111,94 +111,94 @@ public class Classwork_Loops_FDVORSKY : MonoBehaviour
         //    Debug.Log(i);
         //}
         // 16. Use a while loop to add up 1 through 100 and print the total.
-      //int i = 0;
-      //int total = 0;
-      //while(i <= 100)
-      //{
-      //
-      //    i++;
-      //    total += i;
-      //    
-      //    if(i == 100)
-      //    {
-      //        Debug.Log("The Total is "+ total);
-      //    }
+        //int i = 0;
+        //int total = 0;
+        //while(i <= 100)
+        //{
+        //
+        //    i++;
+        //    total += i;
+        //    
+        //    if(i == 100)
+        //    {
+        //        Debug.Log("The Total is "+ total);
+        //    }
 
-      //}
+        //}
         // 17. Loop 1 through 10, but use continue to skip 5 and break at 8.
         //     Which numbers print?
         // Answer: <1,2,3,4,6,7>
-      //for(int i = 1; i <=10; i++)
-      //{
-            
-      //    if (i == 5) 
-      //    {
-      //        continue;
-      //    }
+        //for(int i = 1; i <=10; i++)
+        //{
 
-      //    if(i == 8)
-      //    {
-      //        break;
-      //    }
-      //    Debug.Log(i);
+        //    if (i == 5) 
+        //    {
+        //        continue;
+        //    }
 
-      //}
+        //    if(i == 8)
+        //    {
+        //        break;
+        //    }
+        //    Debug.Log(i);
+
+        //}
         // 18. FIZZBUZZ (1 to 20): print the numbers 1 through 20, but print
         //     "Fizz" if the number is divisible by 3, print "Buzz" if it is
         //     divisible by 5, and print "FizzBuzz" if it is divisible by both
         //     3 and 5.
-      //for(int i = 1; i <=20; i++)
-      //{
-      //    if (i % 3 == 0 & i % 5 > 0)
-      //    {
-      //        Debug.Log("Fizz");
-      //    }
-      //    if (i % 5 == 0 & i % 3 > 0) 
-      //    {
-      //        Debug.Log("Buzz");
-      //    }
-      //    if (i % 3 == 0&i % 5 == 0)
-      //    {
-      //        Debug.Log("FizzBuzz");
-      //    }
-      //    if (i % 3 > 0 & i % 5 > 0)
-      //    {
-      //        Debug.Log(i);
-      //    }
-      //}
+        //for(int i = 1; i <=20; i++)
+        //{
+        //if (i % 3 == 0 && i % 5 == 0)
+        //  {
+        //      Debug.Log("Fizzbuzz");
+        //  }
+        //  else if (i % 5 == 0)
+        //  {
+        //      Debug.Log("Buzz");
+        //  }
+        //  else if (i % 3 == 0)
+        //  {
+        //      Debug.Log("Fizz");
+        //  }
+        //  else
+        //  {
+        //    Debug.Log(i);
+        //  }
+        //}
         // 19. IS PRIME: given int n (greater than 1), print whether it is
         //     prime. Loop from 2 to n - 1; if any value divides n evenly it is
         //     not prime; use break to stop early.
-      //int n = 7;
-      //int i = 2;
-      //while (i <n)
-      //{
-      //    
-      //    if (n%i==0)
-      //    {
-      //        Debug.Log(n + " is not prime");
-      //        break;
-      //    }
+        //int n = 7;
+        //int i = 2;
+        //while (i <n)
+        //{
+        //    
+        //    if (n%i==0)
+        //    {
+        //        Debug.Log(n + " is not prime");
+        //        break;
+        //    }
 
-      //    Debug.Log(n + " is prime");
-      //    i++;
-      //}
-        
-        // 20. COUNTDOWN: use a for loop to print a countdown from 5 down to 1,
-        //     then print "Go!".
+            //    Debug.Log(n + " is prime");
+            //    i++;
+            //}
 
-        for(int i = 5; i >=0; i--)
-        {
-            
-            if(i < 1)
-            {
-                Debug.Log("Go!");
-            }
-            else
-            {
-                Debug.Log(i);
-            }
-        }
+            // 20. COUNTDOWN: use a for loop to print a countdown from 5 down to 1,
+            //     then print "Go!".
+
+            //for(int i = 5; i >=0; i--)
+            //{
+            //    
+            //    if(i < 1)
+            //    {
+            //       Debug.Log("Go!");
+            //    }
+            //    else
+            //    {
+            //        Debug.Log(i);
+            //    }
+            //}
 
 
 
