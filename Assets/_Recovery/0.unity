@@ -397,7 +397,6 @@ GameObject:
   - component: {fileID: 761934819}
   - component: {fileID: 761934818}
   - component: {fileID: 761934821}
-  - component: {fileID: 761934822}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -475,23 +474,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761934815}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c6b306af392bd34eaa668a88133046f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Review1
---- !u!114 &761934822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 761934815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e611c682d9d5f2846b47bd3003448778, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClassworkBonus2
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
