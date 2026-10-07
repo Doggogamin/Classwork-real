@@ -13,7 +13,7 @@ public class Classwork_Arrays_Foreach : MonoBehaviour
     void Start()
     {
         // For Section A, use this array:
-        int[] loot = { 5, 10, 15, 20 };
+        //int[] loot = { 5, 10, 15, 20 };
 
         // ============================================================
         // SECTION A: Trace & Predict (predict, then test)
@@ -57,11 +57,11 @@ public class Classwork_Arrays_Foreach : MonoBehaviour
         //     a) three room names as strings: "Hall", "Vault", "Cell"
         //     b) four potion counts as ints: 2, 4, 6, 8
         //     c) an empty array that holds 5 ints (all start at 0)
-        string[] rooms = { "Hall", "Vault", "Cell" };
-        int[] potions = { 2, 4, 6, 8 };
-        int[] ints = new int[5];
-        int[] emptyArray = ints;
-        ;
+        //string[] rooms = { "Hall", "Vault", "Cell" };
+        //int[] potions = { 2, 4, 6, 8 };
+        //int[] ints = new int[5];
+        //int[] emptyArray = ints;
+
 
         // B2. TOTAL LOOT: add up every value in the loot array above and print
         //     the total.
@@ -116,18 +116,68 @@ public class Classwork_Arrays_Foreach : MonoBehaviour
         //Debug.Log("potion is mentioned " + timesMentioned + " times");
         // C3. REVERSE ROLL CALL: given a string[] of party members, print the
         //     names from last to first.
-        //
+        //string[] partyMembers = { "Flip", "Beefy", "Placeholder" };
+        //for (int i = partyMembers.Length - 1 ; i > -1 ; i--)
+        //{
+        //    Debug.Log(partyMembers[i]);
+        //}
         // C4. SURVIVORS: given int[] enemyHealth, print how many enemies are
         //     still alive (health above 0).
-        //
+        //int[] enemyHealth = { 15, 20, 0, 2 };
+        //int enemiesAlive = 0;
+        //for (int i = 0; i < enemyHealth.Length; i++)
+        //{
+        //    if (enemyHealth[i] > 0)
+        //    {
+        //        enemiesAlive++;
+        //    }
+        //}
+        //Debug.Log(enemiesAlive + " Enemies are alive");
         // C5. SORT THE LOOT: given an int[] of values in any order, rearrange
         //     them so they run from smallest to largest, then print them in order.
-        //
+        //int[] loot = { 160, 23213, 1244331423, 312321, 1232 };
+        //Array.Sort(loot);
+        //for (int i = 0; i < loot.Length; i++)
+        //{
+        //    Debug.Log(loot[i]);
+        //}
         // C6. FIND IN THE SORTED LOOT: using the now-sorted values from C5, look
         //     for a particular value and print whether it is in the list and, if
         //     so, at what index.
-        //
+        //int valueSearch = 23213;
+        //bool valueFound = false;
+        //int valueIndex = 0;
+        //for (int i = 0; i < loot.Length; i++)
+        //{
+        //    if (loot[i] == valueSearch)
+        //    {
+        //        valueFound = true;
+        //        valueIndex = i;
+        //    }
+
+        //}
+        //if (valueFound)
+        //{
+        //    Debug.Log("The value " + valueSearch + " was found at index " + valueIndex);
+        //}
+        //else
+        //{
+        //    Debug.Log("Your value was not found");
+        //}
+
         // C7. PALINDROME WORD: given a word (say "level"), print whether it reads
         //     the same forwards and backwards.
+        string word = "level";
+        char[] reversing = word.ToCharArray();
+        Array.Reverse(reversing);
+        string reversed = new string (reversing);
+        if (reversed == word)
+        {
+            Debug.Log(word + " is a palindrome");
+        }
+        else
+        {
+            Debug.Log(word + " is not a palindrome");
+        }
     }
 }
