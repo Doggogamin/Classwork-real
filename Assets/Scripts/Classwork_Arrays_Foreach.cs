@@ -135,12 +135,12 @@ public class Classwork_Arrays_Foreach : MonoBehaviour
         //Debug.Log(enemiesAlive + " Enemies are alive");
         // C5. SORT THE LOOT: given an int[] of values in any order, rearrange
         //     them so they run from smallest to largest, then print them in order.
-        //int[] loot = { 160, 23213, 1244331423, 312321, 1232 };
-        //Array.Sort(loot);
-        //for (int i = 0; i < loot.Length; i++)
-        //{
-        //    Debug.Log(loot[i]);
-        //}
+        int[] loot = { 160, 23213, 1244331423, 312321, 1232 };
+        
+        for (int i = 0; i < loot.Length; i++)
+        {
+            
+        }
         // C6. FIND IN THE SORTED LOOT: using the now-sorted values from C5, look
         //     for a particular value and print whether it is in the list and, if
         //     so, at what index.
