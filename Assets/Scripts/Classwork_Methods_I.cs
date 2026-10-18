@@ -45,18 +45,18 @@ public class Classwork_Methods_I : MonoBehaviour
 
         // TODO     14. Write  void PrintExits(string exits)  that prints
         //              "Exits: " + exits.
-
+        PrintExits("room");
         // TODO     15. Write  int Square(int n)  that returns n * n.
-
+        Square(5);
         // TODO     16. Write  bool IsLowHealth(int hp)  that returns true when hp < 30.
-
+        IsLowHealth(20);
         // TODO     17. MAX OF TWO: int Max(int a, int b) returns the larger.
-
+        Max(40, 50);
         // TODO     18. GREETER: string Greeting(string name) RETURNS
         //              "Hello, <name>!" (returns it, does not print it).
-
+        Greeting("Flip");
         // TODO     19. IS EVEN: bool IsEven(int n) returns true when n is even.
-
+        IsEven(2);
     }
 
     // Write your methods for tasks 14-19 here.
